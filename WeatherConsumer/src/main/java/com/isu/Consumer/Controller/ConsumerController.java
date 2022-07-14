@@ -17,6 +17,7 @@ public class ConsumerController {
 	@GetMapping("/show")
 	public ResponseEntity<City> getWeather(){
 		System.out.println("n-2 commited");
+		System.out.println("n-3 commited");
 		return cs.getAll();
 	}
 }
