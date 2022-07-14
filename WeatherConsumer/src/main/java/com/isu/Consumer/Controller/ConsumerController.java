@@ -14,8 +14,6 @@ public class ConsumerController {
 	@Autowired
 	private ConsumerService cs;
 
-	
-	887
 	@GetMapping("/show")
 	public ResponseEntity<City> getWeather(){
 		System.out.println("n-2 commited");
